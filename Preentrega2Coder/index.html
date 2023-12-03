@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Desarrolladora Web Frontend</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Aplicar fuente Google Fonts al footer -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,100&display=swap" rel="stylesheet">
+    <!-- Fuente Nunito regular 400 para nombre -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <!-- Fuente Nunito Extra ligero cursiva para Web Developer -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap" rel="stylesheet">
+
+<!--Poner aqui los script de Bootstrap;-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+   
+<header>
+    
+        
+    
+    <h1>Loreto Montt S.</h1>
+        <div class="web-developer-container">
+            <h3>Web Developer</h3>
+        </div>
+        
+        <nav>
+            
+            <div class="logo">
+                <img src="./css/assets/logo2.png" alt="Logo de L.M">
+                
+            </div>
+
+
+
+
+ <!--aqui pondre barra ejemplo para probar-->
+ <div class="barra">
+        
+            <ul class="contacto">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="./pages/sobremi.html">Sobre mi</a></li>
+                <li><a href="./pages/cotiza.html">Cotiza</a></li>
+                <li><a href="./pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+   
+    </div>
+
+        <!-- Proyectos Ficticios y linkeados a página externa -->
+        <section id="proyectos">
+            <h2>Mis Proyectos</h2>
+            <div class="proyecto 1">
+                <a href="https://tufigura3d.com/">
+                    <img src="https://www.patriciacid.com/wp-content/uploads/2023/03/ejemplos-paginas-web-figuras-3d.png" alt="Proyecto 1">
+                    <p>Descripción del Proyecto 1.</p>
+                </a>
+            </div>
+            <div class="proyecto 2">
+                <a href="https://aglaiafoundation.com/">
+                    <img src="https://www.patriciacid.com/wp-content/uploads/2023/01/ejemplos-de-paginas-web-aglaia.png" alt="Proyecto 2">
+                    <p>Descripción del Proyecto 2.</p>
+                </a>
+            </div>
+            <div class="proyecto-3">
+                <a href="https://www.danijardineriabarcelona.com/">
+                    <img src="https://www.patriciacid.com/wp-content/uploads/2022/09/proyectos-disenoweb-jardinero-barcelona.jpg" alt="Proyecto 3">
+                    <p>Descripción del Proyecto 3.</p>
+                </a>
+            </div>
+        </section>
+    </main>
+    <!--carrusel bootstrap-->
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active d item" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active d-item">
+            <img src="./css/assets/foto editada taza.jpg" class="d-block w-100 d-img" alt="slider 1">
+          </div>
+          <div class="carousel-item">
+            <img src="./css/assets/2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./css/assets/3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+        <!--Incluir sección Card Nuestros Clientes-->
+        <section class="clientes">
+            <h2>Nuestros Clientes</h2>
+            <div class="grid-container">
+                <!-- Card 1 -->
+                <div class="grid-item">
+                    <p>Empresa "Nombre"</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="grid-item">
+                    <p>Empresa "Nombre"</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="grid-item">
+                    <p>Empresa "Nombre"</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="grid-item">
+                    <p>Empresa "Nombre"</p>
+                </div>
+                <!-- Card 5 -->
+                <div class="grid-item">
+                    <p>Empresa "Nombre"</p>
+                </div>
+                <!-- Card 6 -->
+                <div class="grid-item">
+                    <p>Empresa "Nombre"</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Evalúanos -->
+        <section id="evaluanos">
+            <a href="./pages/evaluanos.html" class="evaluanos-button">Evalúanos</a>
+        </section>
+    </main>
+    <!-- Redes Sociales -->
+    <div class="redes-sociales">
+        <a href="https://web.facebook.com/AcupunturaMedicinaChina"><img src="./css/assets/facebook.jpg" alt="Facebook"></a>
+        <a href="https://twitter.com/LoreMontt"><img src="./css/assets/twitter.jpg" alt="Twitter"></a>
+        <a href="https://wa.me/56982154439"><img src="./css/assets/whatsapp.jpg" alt="WhatsApp"></a>
+    </div>
+    <!--link2 de bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+    <footer class="footer">
+        <h4>&copy;2023, Loreto Montt, Web Developer - Todos los derechos reservados</h4>
+    </footer>
+    
+</body>
+</html>

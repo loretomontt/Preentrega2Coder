@@ -1,0 +1,532 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*aca empieza prueba de barra de navegacion borar si no resultra*/
+
+.barra {
+    background-color: rgba(142, 150, 157, 0.6); /* Fondo más transparente y color ajustado */
+    padding: 20px 50px; /* Padding vertical y horizontal */
+    line-height: 160px; /* Ajuste line-height */
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex; /* Añadido para usar flexbox en la barra */
+    justify-content: space-between; /* Ajuste para centrar el contenido y colocar el logo a la izquierda */
+    transition: background-color 0.3s; /* Transición para cambios de color */
+}
+/* Añadido para alinear el logo a la izquierda */
+.barra .logo {
+    margin-right: auto;
+}
+
+
+.barra:hover{
+    transition: background-color 0.3s; /* Transición para cambios de color */
+}
+
+.barra:hover {
+    background-color: rgba(109, 128, 147, 0.9); /* Color completo y más transparente al pasar el ratón */
+}
+
+
+
+.barra {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Alinea los elementos a la derecha */
+}
+
+.barra li {
+    margin-right: 20px; /* Mayor espacio entre elementos */
+    
+}
+
+.barra a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.barra ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* Ajustes para el contenido principal */
+main {
+    margin-top: calc(20vh + 80px); /* Ajusta según la altura de la barra */
+}
+
+
+/* Estilos del encabezado con imagen de fondo */
+header {
+    position:center;
+    background: url(./assets/banner.jpg);
+    background-size: cover; 
+    background-attachment: fixed;
+    height: 100vh; 
+    color: #fff;
+    text-align: center;
+    margin: 0; /* Agregado para eliminar posibles márgenes */
+    padding: 0; /* Agregado para eliminar posibles rellenos */
+}
+
+
+    h3 {
+        color:rgb (0,0,0); /* Color del texto "Web Developer" */
+        margin: 0;
+        font-size: 30px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bold; /* Aplicar negrita al texto */
+    }
+
+header h1{
+    font-size: 40px;
+    color: #333;
+    text-shadow: #333;
+    display:inline-block
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, );
+    padding: 0px 0px;
+    height: 60px;
+} 
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+
+
+
+.menu {
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+}
+
+.menu li {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+/* Cambia el color de los enlaces a blanco */
+.menu a {
+    color: black;
+    text-decoration: none;
+    
+}
+
+/* Estilos de la sección "Sobre Mí" */
+
+
+nav{
+    display: flex;
+}
+
+.sobremi{
+
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size:1.5rem;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    @media only screen and (max-width: 768px) {
+        /* Estilos específicos para pantallas más pequeñas */
+    .sobremi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+    }
+    
+
+
+
+
+    }
+
+    
+
+
+
+
+
+
+    .menu-sobremi {
+        display: flex;
+        justify-content:flex-end;
+        list-style: none;
+        margin: 0; /* Elimina el margen predeterminado */
+        padding: 0; /* Elimina el relleno predeterminado */
+    }
+    .menu-sobremi li {
+        margin-left: 15px; /* Añade un margen entre los elementos si lo deseas */
+       
+    }
+        .menu-sobremi a {
+            transition: color 0.3s; /* Ajusta la propiedad y la duración según sea necesario */
+            color: black;
+            text-decoration: none;
+            
+        }
+        
+        .menu-sobremi a:hover {
+            color: #007BFF; /* Color al pasar el ratón */
+           
+        }
+       
+
+   
+    main {
+        margin-top: calc(20vh + 80px); /* Ajusta según la altura de la barra */
+    }
+    /*Estilos de la imagen Sobre mi*/
+    
+    
+        
+    
+    .sobre-mi img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    
+    
+
+/* Estilos de la sección "Mis Proyectos" */
+#proyectos {
+    text-align: center;
+    padding: 24px;
+}
+
+#proyectos h2 {
+    font-size: 24px;
+}
+
+
+.proyecto {
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top; 
+    text-align: center;
+    width: 30%; 
+}
+.proyecto p {
+    font-size: 16px;
+}
+
+.proyecto img {
+    width: 100%; 
+    max-height: 100%; 
+}
+.proyecto-3 img {
+    width: 421px;
+    height: 258px;
+}
+
+/*Estilos de la Grid*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas por fila */
+    gap: 20px; /* Espaciado entre las cards */
+}
+
+/* Estilos para la grilla */
+
+.grid-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombreado exterior */
+    transition: transform 0.3s ease; /* Transición para el efecto hover */
+}
+
+.grid-item:hover {
+    transform: translateY(-5px); /* Efecto hover: sube ligeramente hacia arriba */
+}
+
+
+
+    .menu-cotiza {
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+    }
+    .menu-cotiza li {
+        margin-left: 15px; /* Añade un margen entre los elementos si lo deseas */
+    }
+    .menu-cotiza a {
+        text-decoration: none;
+        color: black;
+
+    }
+/*Estilos de la seccion "contactarme"*/
+.contacto{
+    text-align: center;
+    padding: 20px;
+    
+    }
+
+.contacto h2 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+
+
+
+
+
+.menu-contacto.form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.menu-contacto label,
+.menu-contacto input,
+.menu-contacto textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.menu-contacto input[type="text"],
+.menu-contacto input[type="email"],
+.menu-contacto textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.menu-contacto input[type="submit"] {
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.menu-contacto input[type="submit"]:hover {
+    background-color: #333;
+    color: #fff;
+}
+.menu-contacto {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 10px;
+    margin: 10px; 
+}
+
+.menu-contacto li {
+    margin-right: 15px;
+}
+
+.menu-contacto a {
+    text-decoration: none;
+    color: black;
+}
+/*estilo 3 imagenes tipo cards para pag Servicios*/
+.imagenes-cotiza {
+    display: flex;
+    justify-content: space-around; /* Ajusta según tus necesidades */
+    align-items: center; /* Ajusta según tus necesidades */
+    margin: 20px 0;
+}
+/*mas estilos de chat gpt para cards*/
+.cotiza-card {
+    text-align: center;
+}
+
+.cotiza-card img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease;
+}
+
+.cotiza-card:hover img {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.titulo-servicio {
+    margin-top: 10px; /* Ajusta según tus necesidades */
+}
+
+.descripcion-servicio {
+    color: #555; /* Color del texto de la descripción */
+}
+
+
+
+
+.imagenes-cotiza img {
+    width: 250px; /* Ajusta según tus necesidades */
+    height: 250px; /* Ajusta según tus necesidades */
+    border-radius: 50%; /* Para imágenes redondas */
+    object-fit: cover; /* Ajusta según tus necesidades */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Ajusta los valores según tus preferencias */
+    transition: box-shadow 0.3s ease; /* Agrega una transición suave */
+}
+
+.imagenes-cotiza img:hover {
+    transform: scale(1.1); /* Puedes ajustar el factor de escala según tus preferencias */
+    transition: transform 0.3s ease; /* Agrega una transición suave */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Ajusta los valores según tus preferencias */
+}
+
+.seccion1 .seccion2 .seccion3 {
+    display: flex;
+    flex-direction: row;
+}
+.clientes{
+    padding-left: 60px;
+text-align: center;
+}
+
+
+.redes-sociales {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.redes-sociales a {
+    margin: 0 10px;
+}
+
+.redes-sociales img {
+    max-width: 40px;
+    height: auto;
+}
+
+
+.redes-sociales {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.redes-sociales a {
+    margin: 0 10px;
+}
+
+.redes-sociales img {
+    max-width: 40px;
+    height: auto;
+}
+.evaluanos-button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px
+}
+
+.evaluanos-button:hover {
+    background-color: #0056b3;
+}
+
+#evaluanos{
+    text-align: center;
+}
+
+/*Estilos de pagina Cotiza*/
+.cotiza-tipografia{
+    text-align: center;
+}
+h1{
+    padding-top: 20px;
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+/* Estilos del footer */
+
+
+
+.footer {
+    font-family: 'Roboto', sans-serif; 
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer h4 {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+}
+/* Estilos del footer pag cotiza */
+
+
+
+.footer {
+    font-family: 'Roboto', sans-serif; 
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer h4 {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+}
+
+
+
+.footer-cotiza{
+    text-align: center;
+}
